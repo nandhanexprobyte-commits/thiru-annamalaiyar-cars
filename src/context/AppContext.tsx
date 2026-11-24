@@ -254,7 +254,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
       ws.onclose = () => {
         setWsConnected(false);
-        if (!closed) {
+        if (!closed && attempt < 3) {
           const delay = Math.min(10000, 1000 * Math.pow(1.6, attempt++));
           retryTimer = setTimeout(connect, delay);
         }

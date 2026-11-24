@@ -32,7 +32,8 @@ import type {
   VehicleBoardType,
 } from './shared/types.ts';
 
-const UPLOADS_DIR = path.resolve(process.cwd(), 'data', 'uploads');
+const IS_VERCEL = Boolean(process.env.VERCEL);
+const UPLOADS_DIR = IS_VERCEL ? path.join('/tmp', 'uploads') : path.resolve(process.cwd(), 'data', 'uploads');
 const MAX_UPLOAD_BYTES = 4 * 1024 * 1024;
 
 function isSafeImageUrl(url: string): boolean {
@@ -86,15 +87,19 @@ const VALID_ENQUIRY_STATUSES: EnquiryStatus[] = [
   'Hot',
 ];
 
-async function bootstrap() {
+let httpServer: http.Server;
+
+export async function createApp(): Promise<express.Application> {
   await store.init();
 
   const app = express();
   app.set('trust proxy', 1);
   app.use(express.json({ limit: '6mb' }));
 
-  const httpServer = http.createServer(app);
-  const wsHub = attachWebSocketServer(httpServer);
+  httpServer = http.createServer(app);
+  const wsHub = IS_VERCEL
+    ? { broadcastAll() {}, broadcastStaffOrAdmin() {}, broadcastAdminOnly() {}, getClientCount() { return 0; } }
+    : attachWebSocketServer(httpServer);
   const { requireAuth, requireRoles, requirePermission } = createAuthMiddleware((id) => store.getUserById(id));
 
   async function emitNotification(params: {
@@ -968,28 +973,41 @@ async function bootstrap() {
     res.json({ ok: true });
   });
 
-  // --- Vite / Static Serving ---
-  if (process.env.NODE_ENV !== 'production') {
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: 'spa',
-    });
-    app.use(vite.middlewares);
-  } else {
-    const distDir = path.resolve(process.cwd(), 'dist');
-    app.use(express.static(distDir));
-    app.get('*', (_req, res) => {
-      res.sendFile(path.join(distDir, 'index.html'));
-    });
+  // --- Vite / Static Serving (local / non-Vercel only) ---
+  if (!IS_VERCEL) {
+    if (process.env.NODE_ENV !== 'production') {
+      const vite = await createViteServer({
+        server: { middlewareMode: true },
+        appType: 'spa',
+      });
+      app.use(vite.middlewares);
+    } else {
+      const distDir = path.resolve(process.cwd(), 'dist');
+      app.use(express.static(distDir));
+      app.get('*', (_req, res) => {
+        res.sendFile(path.join(distDir, 'index.html'));
+      });
+    }
   }
 
-  const PORT = 3000;
-  httpServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://0.0.0.0:${PORT}`);
-  });
+  return app;
 }
 
-bootstrap().catch((err) => {
-  console.error('Failed to start server:', err);
-  process.exit(1);
-});
+async function bootstrap() {
+  try {
+    const app = await createApp();
+    if (IS_VERCEL) return;
+    const PORT = 3000;
+    httpServer.listen(PORT, '0.0.0.0', () => {
+      console.log(`Server running on http://0.0.0.0:${PORT}`);
+    });
+  } catch (err) {
+    console.error('Failed to start server:', err);
+    process.exit(1);
+  }
+}
+
+// Auto-start only in non-Vercel (local) environments.
+if (!IS_VERCEL) {
+  bootstrap();
+}

@@ -28,8 +28,11 @@ export interface DataStore {
   catalogTrimmedToTen?: boolean;
 }
 
-const DATA_DIR = path.resolve(process.cwd(), 'data');
+const IS_VERCEL = Boolean(process.env.VERCEL);
+const DATA_DIR = IS_VERCEL ? '/tmp/data' : path.resolve(process.cwd(), 'data');
+const BUNDLED_DATA_DIR = path.resolve(process.cwd(), 'data');
 const STORE_PATH = path.join(DATA_DIR, 'store.json');
+const BUNDLED_STORE_PATH = path.join(BUNDLED_DATA_DIR, 'store.json');
 const MAX_SAMPLE_VEHICLES = 10;
 
 const IMG_HERO = '/src/assets/images/hero_showroom_luxury_1795250937369.jpg';
@@ -361,6 +364,15 @@ class StoreManager {
   async init(): Promise<void> {
     if (this.initialized) return;
     await fs.mkdir(DATA_DIR, { recursive: true });
+    try {
+      await fs.access(STORE_PATH);
+    } catch {
+      try {
+        await fs.copyFile(BUNDLED_STORE_PATH, STORE_PATH);
+      } catch {
+        // fall through; createInitialStore will be used
+      }
+    }
     try {
       const raw = await fs.readFile(STORE_PATH, 'utf8');
       const parsed = JSON.parse(raw) as Partial<DataStore>;
