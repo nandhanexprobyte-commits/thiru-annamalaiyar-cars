@@ -1,6 +1,11 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "echo 'Using prebuilt dist'",
   "outputDirectory": "dist",
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "data/store.json"
+    }
+  },
   "rewrites": [
     { "source": "/api", "destination": "/api" },
     { "source": "/api/:path*", "destination": "/api" },
