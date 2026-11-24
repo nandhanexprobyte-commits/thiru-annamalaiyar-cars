@@ -429,6 +429,24 @@
   },
   "analyticsEvents": [
     {
+      "id": "evt-abb0dd92",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-a15ulo55",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T09:09:12.542Z"
+    },
+    {
+      "id": "evt-4bc87666",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-nuiliirb",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T05:28:49.439Z"
+    },
+    {
       "id": "evt-b74c8438",
       "type": "page_view",
       "path": "/",
