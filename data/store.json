@@ -1,0 +1,4458 @@
+{
+  "users": [
+    {
+      "id": "usr-6bdf554d",
+      "name": "customer",
+      "username": "customer",
+      "email": "customer@gmail.com",
+      "phone": "9047018300",
+      "role": "customer",
+      "title": "Portal Member",
+      "active": true,
+      "permissions": {
+        "canAddCar": false,
+        "canEditCar": false,
+        "canDeleteCar": false,
+        "canEditPrice": false,
+        "canViewAllEnquiries": false,
+        "canEditSiteContent": false
+      },
+      "shortlistedIds": [],
+      "passwordHash": "9e0032043e587fb857c2c4ac8e1fe8aa:3f42c6ecd7438e3f75cc0cfc95ed65e0f722a83e6595990d05fac50a361d2f55ffa8f1d5c02783fa60932548d1a837266f275802d77786b69328a8c93affbf57",
+      "createdAt": "2026-11-23T12:40:19.685Z",
+      "lastLoginAt": "2026-11-23T12:41:20.204Z"
+    },
+    {
+      "id": "usr-14a9e099",
+      "name": "Client",
+      "username": "client",
+      "email": "client@member.annamalaiyarcars.in",
+      "phone": "9874563210",
+      "role": "customer",
+      "active": true,
+      "permissions": {
+        "canAddCar": false,
+        "canEditCar": false,
+        "canDeleteCar": false,
+        "canEditPrice": false,
+        "canViewAllEnquiries": false,
+        "canEditSiteContent": false
+      },
+      "shortlistedIds": [],
+      "passwordHash": "c2b5fc47578c7899c14252dcac50a760:3da113db75ddee8954918152806506efd41f143e72c783ba579d16111f7c33b9a324177e9b3bb2473e11f36f0336306f719ccc7928302a403dcbd2fb6ee53810",
+      "createdAt": "2026-11-23T05:49:53.351Z",
+      "lastLoginAt": "2026-11-23T05:49:53.351Z"
+    },
+    {
+      "id": "usr-1cb17ad0",
+      "name": "Nandhakumar",
+      "username": "nandha",
+      "email": "nandha@member.annamalaiyarcars.in",
+      "phone": "9874563210",
+      "role": "customer",
+      "active": true,
+      "permissions": {
+        "canAddCar": false,
+        "canEditCar": false,
+        "canDeleteCar": false,
+        "canEditPrice": false,
+        "canViewAllEnquiries": false,
+        "canEditSiteContent": false
+      },
+      "shortlistedIds": [],
+      "passwordHash": "c4d9ed1aae59b3086be078632ebb2a38:c964efbad6a127b07aef7c7aadc3e3d4634aae102c3c91925ffda86fce8c141845ad01bfdc1d4c83feeb63a670d707bed277adc6d23cdd8819ace87baa227b33",
+      "createdAt": "2026-11-21T11:51:57.691Z",
+      "lastLoginAt": "2026-11-21T11:51:57.691Z"
+    },
+    {
+      "id": "usr-ecabb51e",
+      "name": "test1",
+      "username": "test1",
+      "email": "test1@gmail.com",
+      "role": "admin",
+      "staffCode": "OWNER-01",
+      "title": "Showroom Administrator",
+      "active": true,
+      "permissions": {
+        "canAddCar": true,
+        "canEditCar": true,
+        "canDeleteCar": true,
+        "canEditPrice": true,
+        "canViewAllEnquiries": true,
+        "canEditSiteContent": true
+      },
+      "shortlistedIds": [],
+      "passwordHash": "76185bf6f37466d21a76141cfdd7eb28:02e4e99439d83fcd340a42de8626df05e9e1a1e586274c0c5f5b5850c50d737b22c8fbb59ed97657400020594fbae13f7234a6632fb42f9a37fe24a554e11ac9",
+      "createdAt": "2026-11-21T09:51:52.243Z",
+      "lastLoginAt": "2026-11-24T04:46:38.762Z"
+    },
+    {
+      "id": "usr-d6a53d28",
+      "name": "test",
+      "username": "testgmail.com",
+      "email": "test@gmail.com",
+      "phone": "+919047018311",
+      "role": "customer",
+      "active": false,
+      "permissions": {
+        "canAddCar": false,
+        "canEditCar": false,
+        "canDeleteCar": false,
+        "canEditPrice": false,
+        "canViewAllEnquiries": false,
+        "canEditSiteContent": false
+      },
+      "shortlistedIds": [],
+      "passwordHash": "c1eab4c19ab3dcd11056dba66beb9663:7bf30e1c2d693f4efb6f43474f6e642b70b617251023fd58374e2f5dff60d69451368bdff99388e8902ead9a137c3e6961202e38413eb88d0e636a0f0a0c0c1d",
+      "createdAt": "2026-11-21T09:48:21.278Z",
+      "lastLoginAt": "2026-11-21T09:48:21.278Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "veh-001",
+      "brand": "Maruti",
+      "model": "XL6",
+      "year": "2022",
+      "variant": "ALFA",
+      "reg": "TN-82-U-7520",
+      "owner": "1",
+      "colour": "SILVER",
+      "fuel": "PETROL",
+      "trans": "AT",
+      "km": "51000",
+      "price": 1200000,
+      "finalPrice": 1160000,
+      "dealer": "TN-82-C-MOHAMMED ASFAQ (96296-29493)",
+      "phone": "96296-29493",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_crossover_silver_1795250937315.jpg",
+      "views": 180,
+      "createdAt": "2026-11-07T15:47:13.747Z",
+      "updatedAt": "2026-11-07T15:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-002",
+      "brand": "Maruti",
+      "model": "WAGON-R",
+      "year": "2021",
+      "variant": "VXI",
+      "reg": "TN-78-P-5454",
+      "owner": "1",
+      "colour": "SILVER",
+      "fuel": "PET / CNG",
+      "trans": "MT",
+      "km": "21000",
+      "price": 550000,
+      "finalPrice": 525000,
+      "dealer": "TN-45-B-MURUGESH [ BRAMMA CARS ]",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_crossover_silver_1795250937315.jpg",
+      "views": 176,
+      "createdAt": "2026-11-07T21:47:13.747Z",
+      "updatedAt": "2026-11-07T21:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-004",
+      "brand": "Hyundai",
+      "model": "VENUE",
+      "year": "2025",
+      "variant": "S+",
+      "reg": "TN-83-MF-3377",
+      "owner": "1",
+      "colour": "WHITE",
+      "fuel": "DIESEL",
+      "trans": "MT",
+      "km": "21000",
+      "price": 1050000,
+      "finalPrice": 1000000,
+      "dealer": "TN-83-M-SELVARAJ",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_crossover_silver_1795250937315.jpg",
+      "views": 168,
+      "createdAt": "2026-11-08T09:47:13.747Z",
+      "updatedAt": "2026-11-08T09:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-050",
+      "brand": "Toyota",
+      "model": "HYCROSS",
+      "year": "2025",
+      "variant": "VX",
+      "reg": "TN-24",
+      "owner": "1",
+      "colour": "WHITE",
+      "fuel": "HYBRID",
+      "trans": "AT",
+      "km": "97000",
+      "price": 2500000,
+      "finalPrice": 2500000,
+      "dealer": "TN-24-D-SIRANJIVI",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_suv_flagship_1795250937139.jpg",
+      "views": 12,
+      "createdAt": "2026-11-19T21:47:13.747Z",
+      "updatedAt": "2026-11-19T21:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-051",
+      "brand": "Maruti",
+      "model": "XL6",
+      "year": "2021",
+      "variant": "ZETA",
+      "reg": "TN-58-BF-1441",
+      "owner": "2",
+      "colour": "WHITE",
+      "fuel": "PET / CNG",
+      "trans": "AT",
+      "km": "86000",
+      "price": 950000,
+      "finalPrice": 900000,
+      "dealer": "KUMAR",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_crossover_silver_1795250937315.jpg",
+      "views": 12,
+      "createdAt": "2026-11-20T03:47:13.747Z",
+      "updatedAt": "2026-11-20T03:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-052",
+      "brand": "Hyundai",
+      "model": "CRETA",
+      "year": "2020",
+      "variant": "SX [ O ]",
+      "reg": "TN-84-K-3784",
+      "owner": "1",
+      "colour": "BLUE",
+      "fuel": "DIESEL",
+      "trans": "AT",
+      "km": "102000",
+      "price": 1050000,
+      "finalPrice": 1050000,
+      "dealer": "VIJAYAKUMAR LALITHA CARS",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_crossover_silver_1795250937315.jpg",
+      "views": 12,
+      "createdAt": "2026-11-20T09:47:13.747Z",
+      "updatedAt": "2026-11-20T09:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    },
+    {
+      "id": "veh-053",
+      "brand": "Tata",
+      "model": "NEXON",
+      "year": "2025",
+      "variant": "CREATIVE 45 KWT",
+      "reg": "TN-99-AE-7652",
+      "owner": "1",
+      "colour": "WHITE",
+      "fuel": "EV",
+      "trans": "AT",
+      "km": "56000",
+      "price": 1000000,
+      "finalPrice": 1000000,
+      "dealer": "TN-55-B-ABU",
+      "phone": "",
+      "status": "Available",
+      "featured": false,
+      "imageUrl": "/src/assets/images/vehicle_electric_crimson_1795250939150.jpg",
+      "views": 13,
+      "createdAt": "2026-11-20T15:47:13.747Z",
+      "updatedAt": "2026-11-20T15:47:13.747Z",
+      "fc": "",
+      "insurance": "",
+      "permit": "",
+      "boardType": "Non Tboard Vehicles"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq-42dce6ca",
+      "vehicleLabel": "honda city",
+      "customerName": "Mr. Murali",
+      "phone": "09047018300",
+      "email": "muralivj006@gmail.com",
+      "budget": "10",
+      "message": "test · Transmission: Manual (MT)",
+      "source": "website",
+      "status": "New",
+      "createdByUserId": "usr-ecabb51e",
+      "createdAt": "2026-11-23T12:30:35.354Z",
+      "updatedAt": "2026-11-23T12:30:35.354Z"
+    },
+    {
+      "id": "enq-1001",
+      "vehicleId": "veh-004",
+      "vehicleLabel": "2024 Toyota Innova Crysta ZX",
+      "customerName": "Karthikeyan S.",
+      "phone": "+91 98421 44019",
+      "email": "karthikeyan.s@example.in",
+      "budget": "₹32.5 L",
+      "message": "Interested in inspecting the Crysta ZX this Saturday morning. Need loan quotation for 5 years.",
+      "source": "website",
+      "status": "Test Drive",
+      "notes": "Scheduled showroom test drive at 11:00 AM.",
+      "createdAt": "2026-11-21T08:12:13.747Z",
+      "updatedAt": "2026-11-21T09:07:13.747Z"
+    },
+    {
+      "id": "enq-1002",
+      "vehicleLabel": "2024 Mahindra XUV700 AX7",
+      "customerName": "Priyadharshini R.",
+      "phone": "+91 94430 89211",
+      "email": "priya.r@example.in",
+      "budget": "₹21.5 L",
+      "message": "Please share service history PDF and confirm whether exchange for 2019 Swift is accepted.",
+      "source": "website",
+      "status": "New",
+      "createdAt": "2026-11-21T09:12:13.747Z",
+      "updatedAt": "2026-11-21T09:12:13.747Z"
+    },
+    {
+      "id": "enq-1003",
+      "vehicleLabel": "2025 MG Windsor EV Essence Top End",
+      "customerName": "Aravind Kumar M.",
+      "phone": "+91 96291 77402",
+      "budget": "₹14.5 L",
+      "message": "Checking battery warranty transfer process and fast charger inclusion.",
+      "source": "walk-in",
+      "status": "Contacted",
+      "createdAt": "2026-11-20T19:47:13.747Z",
+      "updatedAt": "2026-11-21T01:47:13.747Z"
+    }
+  ],
+  "siteContent": {
+    "brandName": "Thiru Annamalaiyar Cars",
+    "tagline": "The Auto Choice",
+    "logoUrl": "/assets/aistudio/image_20261121_123728_f2e9b349.jpg",
+    "bannerUrl": "/assets/aistudio/WhatsApp_Image_2026-11-21_at_12.27.17_6ac12c63.jpeg",
+    "announcementEnabled": true,
+    "announcementText": "Verified 150-point inspected pre-owned vehicles in Trichy · Instant RTO transfer & financing available.",
+    "heroKicker": "Trusted Pre-Owned Showroom · Cantonment, Trichy-1",
+    "heroHeadline": "Find the car that fits your journey.",
+    "heroSubheadline": "Every vehicle in our gallery undergoes mechanical verification, verified odometer auditing, and transparent pricing with zero hidden fees.",
+    "heroPrimaryCta": "Browse Inventory",
+    "heroSecondaryCta": "Book Showroom Visit",
+    "heroImageUrl": "/src/assets/images/hero_showroom_luxury_1795250937369.jpg",
+    "trustMetrics": [
+      {
+        "value": "55 Live",
+        "label": "Verified Pre-Owned Cars"
+      },
+      {
+        "value": "14+ Brands",
+        "label": "Hatchbacks to Flagship SUVs"
+      },
+      {
+        "value": "₹1.40 L+",
+        "label": "Starting Showroom Price"
+      },
+      {
+        "value": "100% Check",
+        "label": "RC & History Verified"
+      }
+    ],
+    "catalogTitle": "Curated Pre-Owned Inventory",
+    "catalogSubtitle": "Filter by brand, fuel type, transmission, ownership history, colour, year, or budget in Lakhs. Save favourites to compare or send an enquiry directly.",
+    "storyTitle": "Talk to the Auto Choice team",
+    "storyBody": "A wide, hand-checked selection across Trichy — from dependable daily cars to premium SUVs. Tell us your budget and we will help you shortlist the right match.",
+    "storyHighlights": [
+      {
+        "title": "Verified Ownership Records",
+        "detail": "RC authenticity, hypothecation clearance, and insurance validity checked prior to listing."
+      },
+      {
+        "title": "Direct Dealership Pricing",
+        "detail": "Clear asking and final showroom rates in INR Lakhs with instant savings breakdown."
+      },
+      {
+        "title": "Same-Day Test Drives",
+        "detail": "Visit our Jenne Plaza, Cantonment showroom or call ahead for quick vehicle inspection."
+      }
+    ],
+    "showroomAddress": "A-2, Ground Floor, Jenne Plaza, Cantonment",
+    "showroomCity": "Trichy-1, Tamil Nadu",
+    "contactPhone": "04312410888 / 9385588888 / 9884588880",
+    "contactEmail": "thiruannamalaiyarcars1981@gmail.com",
+    "whatsappNumber": "919385588888",
+    "cardCallNumber": "9385588888",
+    "cardWhatsappNumber": "9385588888",
+    "businessHours": "Monday – Sunday · 9:30 AM – 7:30 PM",
+    "footerNote": "Thiru Annamalaiyar Cars — The Auto Choice. A-2 Ground Floor, Jenne Plaza, Cantonment, Trichy-1."
+  },
+  "themeColors": {
+    "presetId": "obsidian-gold",
+    "mode": "dark",
+    "bg": "#0b0b0c",
+    "surface": "#161514",
+    "surfaceAlt": "#1d1b19",
+    "border": "#2c251e",
+    "text": "#f6efe6",
+    "muted": "#a99f92",
+    "accent": "#c98a4b",
+    "accentBright": "#e8b06a",
+    "accentContrast": "#12100e"
+  },
+  "analyticsEvents": [
+    {
+      "id": "evt-b74c8438",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-kvpfln6x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:46:38.885Z"
+    },
+    {
+      "id": "evt-0f5eba06",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-kvpfln6x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:46:28.446Z"
+    },
+    {
+      "id": "evt-a66eed6e",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3ni9697b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:19:44.293Z"
+    },
+    {
+      "id": "evt-eb18004f",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-3ni9697b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:19:22.675Z"
+    },
+    {
+      "id": "evt-34290a08",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-gjjhjovj",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:12:17.155Z"
+    },
+    {
+      "id": "evt-25a91e96",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-gjjhjovj",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-24T04:11:54.177Z"
+    },
+    {
+      "id": "evt-8d3f45e9",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:42:35.541Z"
+    },
+    {
+      "id": "evt-f60ca812",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:41:20.236Z"
+    },
+    {
+      "id": "evt-ea9526ae",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:41:12.827Z"
+    },
+    {
+      "id": "evt-25e9cea6",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:34:17.999Z"
+    },
+    {
+      "id": "evt-c55b708a",
+      "type": "enquiry",
+      "path": "/enquire",
+      "label": "honda city",
+      "sessionId": "website",
+      "device": "Web Browser",
+      "createdAt": "2026-11-23T12:30:35.354Z"
+    },
+    {
+      "id": "evt-181e14fa",
+      "type": "search",
+      "path": "/inventory",
+      "label": "tes",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:20:28.365Z"
+    },
+    {
+      "id": "evt-72ac44ca",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:15:24.648Z"
+    },
+    {
+      "id": "evt-0cedfb29",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:08:48.468Z"
+    },
+    {
+      "id": "evt-a9f71ea7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:07:41.716Z"
+    },
+    {
+      "id": "evt-2e51c3f7",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-xcrcceg9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:07:31.571Z"
+    },
+    {
+      "id": "evt-9134a1ef",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:05:16.842Z"
+    },
+    {
+      "id": "evt-8604579f",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:01:21.673Z"
+    },
+    {
+      "id": "evt-eb109e96",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:01:18.685Z"
+    },
+    {
+      "id": "evt-bc125905",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T12:01:16.674Z"
+    },
+    {
+      "id": "evt-47090799",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:53:34.985Z"
+    },
+    {
+      "id": "evt-6869f47b",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-6ymmfmo8",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:53:23.733Z"
+    },
+    {
+      "id": "evt-9caeb399",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-70uprqjo",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:43:24.863Z"
+    },
+    {
+      "id": "evt-cfa92586",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-70uprqjo",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:42:42.179Z"
+    },
+    {
+      "id": "evt-1eb63871",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-70uprqjo",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:42:32.610Z"
+    },
+    {
+      "id": "evt-e8abef9a",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-kn3010je",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:27:27.219Z"
+    },
+    {
+      "id": "evt-ec1bb828",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-kn3010je",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:26:22.457Z"
+    },
+    {
+      "id": "evt-f17c8dcb",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:00:53.698Z"
+    },
+    {
+      "id": "evt-2f92b265",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:00:40.729Z"
+    },
+    {
+      "id": "evt-1d58dab7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T11:00:32.837Z"
+    },
+    {
+      "id": "evt-8b46cd18",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:40:34.678Z"
+    },
+    {
+      "id": "evt-319eabcf",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:40:27.698Z"
+    },
+    {
+      "id": "evt-7de4cad2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:40:20.698Z"
+    },
+    {
+      "id": "evt-4eb3a6e1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:40:14.694Z"
+    },
+    {
+      "id": "evt-fd203160",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:37:20.853Z"
+    },
+    {
+      "id": "evt-16bc33a8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:37:04.573Z"
+    },
+    {
+      "id": "evt-40b804f2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:36:49.204Z"
+    },
+    {
+      "id": "evt-1d5650a5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:36:32.684Z"
+    },
+    {
+      "id": "evt-2162f046",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:35:08.270Z"
+    },
+    {
+      "id": "evt-a3b40ac6",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:34:50.223Z"
+    },
+    {
+      "id": "evt-d1588eb5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:48.305Z"
+    },
+    {
+      "id": "evt-8de5c936",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:42.512Z"
+    },
+    {
+      "id": "evt-099911b1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:32.221Z"
+    },
+    {
+      "id": "evt-93da83cc",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:27.300Z"
+    },
+    {
+      "id": "evt-86f3029e",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:21.970Z"
+    },
+    {
+      "id": "evt-f8579622",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:17.607Z"
+    },
+    {
+      "id": "evt-b4759fe7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:12.503Z"
+    },
+    {
+      "id": "evt-237409c4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:33:07.529Z"
+    },
+    {
+      "id": "evt-062f2ee4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:19:29.483Z"
+    },
+    {
+      "id": "evt-26b8f4bb",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-3a1usk9g",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:19:17.393Z"
+    },
+    {
+      "id": "evt-f062ad11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T10:03:25.840Z"
+    },
+    {
+      "id": "evt-4e5d945f",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T09:48:15.038Z"
+    },
+    {
+      "id": "evt-83027e89",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T09:19:08.431Z"
+    },
+    {
+      "id": "evt-05eb622e",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T09:19:03.454Z"
+    },
+    {
+      "id": "evt-989980f1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T09:14:07.086Z"
+    },
+    {
+      "id": "evt-0e0d695d",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-o3u064sc",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T09:03:46.479Z"
+    },
+    {
+      "id": "evt-8db192ea",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:32:16.453Z"
+    },
+    {
+      "id": "evt-a41d95d8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:32:11.437Z"
+    },
+    {
+      "id": "evt-4d6cc275",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:32:05.441Z"
+    },
+    {
+      "id": "evt-910be814",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:32:00.440Z"
+    },
+    {
+      "id": "evt-1188a546",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:31:56.437Z"
+    },
+    {
+      "id": "evt-214aa19e",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:31:52.439Z"
+    },
+    {
+      "id": "evt-43b2b945",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:31:47.483Z"
+    },
+    {
+      "id": "evt-435a8e59",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:29:36.433Z"
+    },
+    {
+      "id": "evt-11025db5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:29:29.484Z"
+    },
+    {
+      "id": "evt-a3297526",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:29:20.431Z"
+    },
+    {
+      "id": "evt-c7f24f00",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:29:13.435Z"
+    },
+    {
+      "id": "evt-e1e9829d",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:29:05.458Z"
+    },
+    {
+      "id": "evt-969d3d3c",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:28:59.465Z"
+    },
+    {
+      "id": "evt-01d8bb62",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:28:53.428Z"
+    },
+    {
+      "id": "evt-65d375e5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:19:21.551Z"
+    },
+    {
+      "id": "evt-86956494",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:19:16.360Z"
+    },
+    {
+      "id": "evt-c29c33b7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:19:09.654Z"
+    },
+    {
+      "id": "evt-39bd105d",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:12:13.440Z"
+    },
+    {
+      "id": "evt-6a851abb",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-d0vmxchh",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:11:03.912Z"
+    },
+    {
+      "id": "evt-63572a46",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-d0vmxchh",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T07:10:53.338Z"
+    },
+    {
+      "id": "evt-40e2bfd4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-u87m8zsq",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T06:56:30.300Z"
+    },
+    {
+      "id": "evt-2e81109f",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-u87m8zsq",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T06:56:16.701Z"
+    },
+    {
+      "id": "evt-2e56daae",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-9br22e0a",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T06:47:44.374Z"
+    },
+    {
+      "id": "evt-59d954ef",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-9br22e0a",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T06:47:30.342Z"
+    },
+    {
+      "id": "evt-1d7c973b",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-jdxj3yzz",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T06:47:26.890Z"
+    },
+    {
+      "id": "evt-f009aa0d",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-053",
+      "vehicleId": "veh-053",
+      "label": "2025 Tata NEXON",
+      "sessionId": "ses-0iz89im0",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:50:25.789Z"
+    },
+    {
+      "id": "evt-69939fa0",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-0iz89im0",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:49:53.402Z"
+    },
+    {
+      "id": "evt-abca8023",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-0iz89im0",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:46:23.647Z"
+    },
+    {
+      "id": "evt-451c289a",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-aymrgjc7",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:21:34.351Z"
+    },
+    {
+      "id": "evt-0652af07",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-aymrgjc7",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:21:18.356Z"
+    },
+    {
+      "id": "evt-e21e2c95",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-0iz89im0",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:19:09.610Z"
+    },
+    {
+      "id": "evt-b23a1ff1",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-0iz89im0",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-23T05:18:41.549Z"
+    },
+    {
+      "id": "evt-1ad98214",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-jnugh3so",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:44:52.662Z"
+    },
+    {
+      "id": "evt-f7258b97",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-jnugh3so",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:44:38.542Z"
+    },
+    {
+      "id": "evt-ea006c97",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-048pioi7",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:19:02.624Z"
+    },
+    {
+      "id": "evt-5e405ef9",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-048pioi7",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:14:33.880Z"
+    },
+    {
+      "id": "evt-6e73c3e1",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-048pioi7",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:14:11.691Z"
+    },
+    {
+      "id": "evt-5e85dd4a",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-nam901us",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T12:13:31.538Z"
+    },
+    {
+      "id": "evt-550170ed",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-055",
+      "label": "2023 Hyundai CRETA",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:52:50.598Z"
+    },
+    {
+      "id": "evt-9fef9d4c",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:51:57.797Z"
+    },
+    {
+      "id": "evt-1e2ba905",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:50:24.678Z"
+    },
+    {
+      "id": "evt-8d34a9c6",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:49:20.189Z"
+    },
+    {
+      "id": "evt-b336872e",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:47:48.851Z"
+    },
+    {
+      "id": "evt-1fe00fad",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:44:38.763Z"
+    },
+    {
+      "id": "evt-4740c7db",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:43:02.048Z"
+    },
+    {
+      "id": "evt-942c81b9",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-hpnt4q5o",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:42:51.170Z"
+    },
+    {
+      "id": "evt-7354f6dd",
+      "type": "search",
+      "path": "/inventory",
+      "label": "new",
+      "sessionId": "ses-3nttal8x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:37:29.087Z"
+    },
+    {
+      "id": "evt-4e039366",
+      "type": "search",
+      "path": "/inventory",
+      "label": "npm",
+      "sessionId": "ses-3nttal8x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:37:27.689Z"
+    },
+    {
+      "id": "evt-b42d106a",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3nttal8x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:37:10.597Z"
+    },
+    {
+      "id": "evt-1f7bb07b",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-3nttal8x",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:36:59.390Z"
+    },
+    {
+      "id": "evt-0940ef96",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:35:20.905Z"
+    },
+    {
+      "id": "evt-012ebad4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:49.745Z"
+    },
+    {
+      "id": "evt-e0f38c99",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:39.242Z"
+    },
+    {
+      "id": "evt-f4fb0a2d",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:34.475Z"
+    },
+    {
+      "id": "evt-34d47082",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:29.268Z"
+    },
+    {
+      "id": "evt-367246d6",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:24.004Z"
+    },
+    {
+      "id": "evt-23e57d9f",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:14.728Z"
+    },
+    {
+      "id": "evt-9517087b",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:34:09.369Z"
+    },
+    {
+      "id": "evt-246a3d86",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:31:11.840Z"
+    },
+    {
+      "id": "evt-aa84c787",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-972rz5ls",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:31:00.192Z"
+    },
+    {
+      "id": "evt-fe5f9a0c",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-3or4ooa2",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:22:22.185Z"
+    },
+    {
+      "id": "evt-45bd1b4e",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-3or4ooa2",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T11:22:04.226Z"
+    },
+    {
+      "id": "evt-323c3776",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-73pqbcud",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:35:32.686Z"
+    },
+    {
+      "id": "evt-51fb380b",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-fgh8q6ev",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:30:16.343Z"
+    },
+    {
+      "id": "evt-d03998b7",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-fgh8q6ev",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:30:01.256Z"
+    },
+    {
+      "id": "evt-a3662296",
+      "type": "search",
+      "path": "/inventory",
+      "label": "tes",
+      "sessionId": "ses-fgh8q6ev",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:29:12.277Z"
+    },
+    {
+      "id": "evt-6cd8e19a",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-fgh8q6ev",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:28:16.636Z"
+    },
+    {
+      "id": "evt-bc44f647",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-fgh8q6ev",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:28:01.610Z"
+    },
+    {
+      "id": "evt-c6173318",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-yw18ckwg",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:22:56.352Z"
+    },
+    {
+      "id": "evt-8dc19724",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-yw18ckwg",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:22:45.618Z"
+    },
+    {
+      "id": "evt-22027598",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-qnijgp5b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:21:36.653Z"
+    },
+    {
+      "id": "evt-b30053cb",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-qnijgp5b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:21:15.408Z"
+    },
+    {
+      "id": "evt-bd78cb65",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:20:36.422Z"
+    },
+    {
+      "id": "evt-d854c181",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:19:35.366Z"
+    },
+    {
+      "id": "evt-af277e6d",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:19:34.927Z"
+    },
+    {
+      "id": "evt-ef49ca6d",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:18:44.889Z"
+    },
+    {
+      "id": "evt-1f13d03c",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:17:10.691Z"
+    },
+    {
+      "id": "evt-0fcaf2d9",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:16:51.085Z"
+    },
+    {
+      "id": "evt-56577b2b",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-johivv5q",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:16:35.529Z"
+    },
+    {
+      "id": "evt-86d172a4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:16:01.795Z"
+    },
+    {
+      "id": "evt-121a2f4b",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:15:37.969Z"
+    },
+    {
+      "id": "evt-e67cfab7",
+      "type": "enquiry",
+      "path": "/inventory/veh-75d69a01",
+      "label": "2024 tt ll (TN-1236)",
+      "sessionId": "website",
+      "device": "Web Browser",
+      "createdAt": "2026-11-21T10:10:54.196Z"
+    },
+    {
+      "id": "evt-54738c11",
+      "type": "search",
+      "path": "/inventory",
+      "label": "150",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:08:31.549Z"
+    },
+    {
+      "id": "evt-3a9028be",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:06:18.274Z"
+    },
+    {
+      "id": "evt-73c0ed07",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:04:57.154Z"
+    },
+    {
+      "id": "evt-c539f028",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-il1a6p3b",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:03:33.187Z"
+    },
+    {
+      "id": "evt-b01f6e17",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-p4c48e1h",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:02:43.185Z"
+    },
+    {
+      "id": "evt-3f1cb1d6",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-pq3p1rs9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T10:01:56.139Z"
+    },
+    {
+      "id": "evt-9c72f5b3",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-pq3p1rs9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T09:51:52.398Z"
+    },
+    {
+      "id": "evt-06a1519f",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-pq3p1rs9",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T09:50:39.673Z"
+    },
+    {
+      "id": "evt-c6e99593",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "ses-ccpxba51",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T09:48:21.490Z"
+    },
+    {
+      "id": "evt-93175cc0",
+      "type": "page_view",
+      "path": "/landing-gate",
+      "label": "Portal Access Landing",
+      "sessionId": "ses-ccpxba51",
+      "device": "Desktop Web",
+      "createdAt": "2026-11-21T09:47:28.027Z"
+    },
+    {
+      "id": "evt-seed-6-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-6-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-15T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-15T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-15T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-6-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-15T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-15T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-15T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-6-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-15T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-15T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-15T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-6-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-15T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-15T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-15T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-6-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-15T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-15T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-15T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-6-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-15T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-15T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-6-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-6-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-15T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-5-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-16T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-5-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-16T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-5-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-16T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-16T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-5-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-16T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-16T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-5-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-16T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-5-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-16T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-5-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-16T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-16T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-5-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-16T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-5-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-5-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-16T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-4-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-4-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-4-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-4-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-4-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-4-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-4-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-4-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-22",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-11",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-17T04:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-23",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-11",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-17T04:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-24",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-4-12",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-17T03:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-4-25",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-4-12",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-17T03:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-3-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-3-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-3-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-3-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-3-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-3-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-3-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-3-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-22",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-11",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T04:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-23",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-11",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T04:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-24",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-3-12",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T03:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-25",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-12",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T03:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-26",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-13",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-18T03:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-27",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-3-13",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-18T03:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-28",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-14",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-18T02:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-3-29",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-3-14",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-18T02:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-2-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-2-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-2-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-2-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-2-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-2-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-2-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-2-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-22",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-11",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T04:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-23",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-11",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T04:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-24",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-2-12",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T03:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-25",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-12",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T03:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-26",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-13",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T03:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-27",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-2-13",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T03:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-28",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-14",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T02:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-29",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-14",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T02:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-30",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-2-15",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-19T02:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-31",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-15",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-19T02:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-32",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-2-16",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-19T01:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-2-33",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-2-16",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-19T01:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-1-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-1-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-1-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-1-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-1-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-1-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-1-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-1-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-22",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-11",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T04:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-23",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-11",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T04:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-24",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-1-12",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T03:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-25",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-12",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T03:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-26",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-13",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T03:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-27",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-1-13",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T03:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-28",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-14",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T02:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-29",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-14",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T02:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-30",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-1-15",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T02:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-31",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-15",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T02:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-32",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-16",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T01:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-33",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-1-16",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T01:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-34",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-17",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-20T01:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-35",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-17",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-20T01:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-36",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-1-18",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T00:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-1-37",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-1-18",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T00:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-0",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-0-0",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T09:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-1",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-0",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T09:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-2",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-1",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T09:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-3",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-0-1",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T09:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-4",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-2",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T08:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-5",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-2",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T08:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-6",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-0-3",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T08:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-7",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-3",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T08:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-8",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-4",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T07:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-9",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-0-4",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T07:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-10",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-5",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T07:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-11",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-5",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T07:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-12",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-003",
+      "label": "2024 Toyota CRYSTA",
+      "sessionId": "sess-0-6",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T06:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-13",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-6",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T06:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-14",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-7",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T06:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-15",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-006",
+      "label": "2014 / 2015 Hyundai I 10",
+      "sessionId": "sess-0-7",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T06:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-16",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-8",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T05:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-17",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-8",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T05:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-18",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-009",
+      "label": "2024 Hyundai CRETA",
+      "sessionId": "sess-0-9",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T05:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-19",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-9",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T05:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-20",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-10",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T04:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-21",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-002",
+      "vehicleId": "veh-002",
+      "label": "2021 Maruti WAGON-R",
+      "sessionId": "sess-0-10",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T04:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-22",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-11",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T04:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-23",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-11",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T04:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-24",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-005",
+      "label": "2025 Skoda KYLAQ",
+      "sessionId": "sess-0-12",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T03:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-25",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-12",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T03:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-26",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-13",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T03:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-27",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-008",
+      "label": "2024 Hyundai VENUE",
+      "sessionId": "sess-0-13",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T03:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-28",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-14",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T02:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-29",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-14",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T02:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-30",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-001",
+      "vehicleId": "veh-001",
+      "label": "2022 Maruti XL6",
+      "sessionId": "sess-0-15",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T02:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-31",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-15",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T02:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-32",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-16",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T01:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-33",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-004",
+      "vehicleId": "veh-004",
+      "label": "2025 Hyundai VENUE",
+      "sessionId": "sess-0-16",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T01:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-34",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-17",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T01:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-35",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-17",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T01:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-36",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-007",
+      "label": "2024 Mahindra XUV 700",
+      "sessionId": "sess-0-18",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-21T00:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-37",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-18",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-21T00:32:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-38",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-19",
+      "device": "Mobile Android",
+      "createdAt": "2026-11-21T00:17:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-39",
+      "type": "vehicle_view",
+      "path": "/inventory/veh-010",
+      "label": "2023 Volvo ELECTRIC C 40",
+      "sessionId": "sess-0-19",
+      "device": "Desktop Edge",
+      "createdAt": "2026-11-21T00:02:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-40",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-20",
+      "device": "Desktop Chrome",
+      "createdAt": "2026-11-20T23:47:13.747Z"
+    },
+    {
+      "id": "evt-seed-0-41",
+      "type": "page_view",
+      "path": "/",
+      "label": "Storefront Home",
+      "sessionId": "sess-0-20",
+      "device": "Mobile Safari",
+      "createdAt": "2026-11-20T23:32:13.747Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-9b5b72e8",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 testcar testcar was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-24T04:12:38.904Z"
+    },
+    {
+      "id": "notif-cae40f7c",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 testservice testservice was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-24T04:12:36.246Z"
+    },
+    {
+      "id": "notif-af44ba65",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 testcar testcar was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-24T04:12:32.735Z"
+    },
+    {
+      "id": "notif-eabb3362",
+      "type": "user",
+      "title": "User Account Updated",
+      "message": "Account settings for test were updated by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T12:40:33.084Z"
+    },
+    {
+      "id": "notif-55a768a3",
+      "type": "user",
+      "title": "Portal Member Added",
+      "message": "customer (@customer) onboarded by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T12:40:19.691Z"
+    },
+    {
+      "id": "notif-8f4f5db8",
+      "type": "enquiry",
+      "title": "New Customer Enquiry",
+      "message": "Mr. Murali (09047018300) enquired about honda city.",
+      "actorName": "Mr. Murali",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T12:30:35.371Z"
+    },
+    {
+      "id": "notif-5fe020f3",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 testcar testcar added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T12:18:13.693Z"
+    },
+    {
+      "id": "notif-ddfc2528",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 testservice testservice added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:58:02.411Z"
+    },
+    {
+      "id": "notif-f0380af7",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2014 / 2015 Hyundai I 10 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:38.655Z"
+    },
+    {
+      "id": "notif-a9286ec4",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Mahindra XUV 700 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:35.920Z"
+    },
+    {
+      "id": "notif-bf22aa6c",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Hyundai VENUE was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:33.263Z"
+    },
+    {
+      "id": "notif-6087cdf5",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Hyundai CRETA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:30.711Z"
+    },
+    {
+      "id": "notif-a894f0f5",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Volvo ELECTRIC C 40 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:27.722Z"
+    },
+    {
+      "id": "notif-d8de3102",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2026 Toyota CRYSTA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:25.155Z"
+    },
+    {
+      "id": "notif-b4c1d2d9",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2011 Mahindra SCORPIO was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:22.708Z"
+    },
+    {
+      "id": "notif-11aac526",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Maruti ERTIGA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:11.180Z"
+    },
+    {
+      "id": "notif-5665616a",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2019 Maruti ERTIGA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:08.601Z"
+    },
+    {
+      "id": "notif-d2387965",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2025 Mahindra THAR ROXX was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:05.795Z"
+    },
+    {
+      "id": "notif-ce49db39",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Hyundai CRETA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:03.220Z"
+    },
+    {
+      "id": "notif-0cb4aafc",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2012 Mahindra XUV 500 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:56:00.762Z"
+    },
+    {
+      "id": "notif-b8896dde",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2020 Ford ECO SPORT was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:58.152Z"
+    },
+    {
+      "id": "notif-94fde9b8",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Mahindra SCORPIO - N was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:55.831Z"
+    },
+    {
+      "id": "notif-ce3abae2",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2020 Honda JAZZ was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:53.388Z"
+    },
+    {
+      "id": "notif-b9cfcb94",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Toyota RUMION was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:50.824Z"
+    },
+    {
+      "id": "notif-655009f3",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2020 Toyota FORTUNER was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:48.487Z"
+    },
+    {
+      "id": "notif-79699bb4",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Maruti SWIFT was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:45.750Z"
+    },
+    {
+      "id": "notif-88bb9c97",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Maruti SWIFT was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:43.000Z"
+    },
+    {
+      "id": "notif-69811ed3",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 MG HECTOR was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:40.113Z"
+    },
+    {
+      "id": "notif-98c4b84c",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Mahindra THAR was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:36.266Z"
+    },
+    {
+      "id": "notif-36b7cc50",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2022 Kia SONET was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:33.929Z"
+    },
+    {
+      "id": "notif-5dc86160",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 / 2025 Kia CARENS was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:31.427Z"
+    },
+    {
+      "id": "notif-c6003866",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2022 BMW X1 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:28.987Z"
+    },
+    {
+      "id": "notif-37efb701",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2020 / 2021 Range Rover VELAR was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:26.616Z"
+    },
+    {
+      "id": "notif-cfe15370",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Volkswagen VIRTUS was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:24.290Z"
+    },
+    {
+      "id": "notif-816a741c",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2017 Ford ASPIRE was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:21.754Z"
+    },
+    {
+      "id": "notif-853bbfce",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Tata PUNCH EV was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:19.039Z"
+    },
+    {
+      "id": "notif-b71c656a",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2025 MG WINDSOR EV was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:16.221Z"
+    },
+    {
+      "id": "notif-1cc336e2",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2021 Hyundai CRETA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:13.875Z"
+    },
+    {
+      "id": "notif-4c4fdba1",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Toyota FORTUNER was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:11.449Z"
+    },
+    {
+      "id": "notif-85a95a45",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Hyundai CRETA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:08.888Z"
+    },
+    {
+      "id": "notif-072f059b",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Hyundai VENUE was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:06.710Z"
+    },
+    {
+      "id": "notif-7357ba54",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2022 Maruti GRAND VITARA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:04.327Z"
+    },
+    {
+      "id": "notif-81d92877",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2020 Kia SELTOS was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:55:01.944Z"
+    },
+    {
+      "id": "notif-e99173e6",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2022 Kia SONET was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:55.578Z"
+    },
+    {
+      "id": "notif-82647cdf",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 BMW X7 was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:50.375Z"
+    },
+    {
+      "id": "notif-7903bf50",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2025 / 2026 Tata NEXON EV was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:47.514Z"
+    },
+    {
+      "id": "notif-741f33d8",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2026 Mahindra THAR was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:40.390Z"
+    },
+    {
+      "id": "notif-2150479e",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2022 Hyundai ALCAZAR was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:36.317Z"
+    },
+    {
+      "id": "notif-73b9519b",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2017 Tata BOLT was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:32.593Z"
+    },
+    {
+      "id": "notif-e0dfa85f",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Maruti FRONX was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:28.641Z"
+    },
+    {
+      "id": "notif-81adefa3",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Kia SONET was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:21.011Z"
+    },
+    {
+      "id": "notif-3dd87bdd",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2023 Maruti SWIFT was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:54:18.154Z"
+    },
+    {
+      "id": "notif-9828d44b",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 testcar testcar added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T11:45:13.136Z"
+    },
+    {
+      "id": "notif-a47327f6",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 testcar testcar was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-23T06:50:44.666Z"
+    },
+    {
+      "id": "notif-13b8ffcd",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 testcar testcar added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T06:49:56.051Z"
+    },
+    {
+      "id": "notif-1aff4714",
+      "type": "user",
+      "title": "New Member Registered",
+      "message": "Client (@client) created a showroom portal account.",
+      "actorName": "Client",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-23T05:49:53.357Z"
+    },
+    {
+      "id": "notif-edcb622f",
+      "type": "user",
+      "title": "New Member Registered",
+      "message": "Nandhakumar (@nandha) created a showroom portal account.",
+      "actorName": "Nandhakumar",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:51:57.698Z"
+    },
+    {
+      "id": "notif-7cda2d03",
+      "type": "user",
+      "title": "User Account Updated",
+      "message": "Account settings for test were updated by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:48:51.124Z"
+    },
+    {
+      "id": "notif-d4b9b21f",
+      "type": "user",
+      "title": "User Account Updated",
+      "message": "Account settings for test were updated by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:48:47.459Z"
+    },
+    {
+      "id": "notif-83aaece8",
+      "type": "enquiry",
+      "title": "Enquiry Removed",
+      "message": "test's enquiry was removed by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:38:35.194Z"
+    },
+    {
+      "id": "notif-f798262c",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 test test was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:38:22.952Z"
+    },
+    {
+      "id": "notif-881af5f7",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 tt ll was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:38:19.282Z"
+    },
+    {
+      "id": "notif-00609f9b",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 test test was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:38:14.846Z"
+    },
+    {
+      "id": "notif-dc9b8d53",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Add New Car Add New Car was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:37:47.005Z"
+    },
+    {
+      "id": "notif-d438ab87",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 Add New Car Add New Car added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:31:51.922Z"
+    },
+    {
+      "id": "notif-99ccacf0",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 test test added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T11:24:17.909Z"
+    },
+    {
+      "id": "notif-6f863026",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 test test added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:29:02.051Z"
+    },
+    {
+      "id": "notif-f1eafc5f",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2025 Skoda KYLAQ was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:24:01.028Z"
+    },
+    {
+      "id": "notif-98c15df5",
+      "type": "inventory",
+      "title": "Vehicle Removed",
+      "message": "2024 Toyota CRYSTA was removed from inventory by test1.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:23:49.097Z"
+    },
+    {
+      "id": "notif-54d3359b",
+      "type": "enquiry",
+      "title": "Enquiry Status Updated",
+      "message": "test (2024 tt ll (TN-1236)) moved to Negotiation by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:22:32.410Z"
+    },
+    {
+      "id": "notif-2e50e47a",
+      "type": "enquiry",
+      "title": "Enquiry Status Updated",
+      "message": "test (2024 tt ll (TN-1236)) moved to Negotiation by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:11:16.033Z"
+    },
+    {
+      "id": "notif-00c444aa",
+      "type": "enquiry",
+      "title": "Enquiry Status Updated",
+      "message": "test (2024 tt ll (TN-1236)) moved to Closed by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:11:10.861Z"
+    },
+    {
+      "id": "notif-ace88c60",
+      "type": "enquiry",
+      "title": "New Customer Enquiry",
+      "message": "test (09047018311) enquired about 2024 tt ll (TN-1236).",
+      "actorName": "test",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:10:54.220Z"
+    },
+    {
+      "id": "notif-80b3c570",
+      "type": "inventory",
+      "title": "New Vehicle Added",
+      "message": "2024 tt ll added by test1.",
+      "actorName": "test1",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T10:07:23.217Z"
+    },
+    {
+      "id": "notif-0eb92120",
+      "type": "system",
+      "title": "Admin Account Initialized",
+      "message": "test1 (@test1) claimed primary Administrator access.",
+      "actorName": "test1",
+      "targetRole": "admin",
+      "readBy": [],
+      "createdAt": "2026-11-21T09:51:52.251Z"
+    },
+    {
+      "id": "notif-80dbf114",
+      "type": "user",
+      "title": "New Member Registered",
+      "message": "test (@testgmail.com) created a showroom portal account.",
+      "actorName": "test",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T09:48:21.290Z"
+    },
+    {
+      "id": "notif-seed-1",
+      "type": "enquiry",
+      "title": "New Website Enquiry",
+      "message": "Priyadharshini R. enquired about 2024 Mahindra XUV700 AX7.",
+      "actorName": "Priyadharshini R.",
+      "targetRole": "staff",
+      "readBy": [],
+      "createdAt": "2026-11-21T09:12:13.747Z"
+    },
+    {
+      "id": "notif-seed-2",
+      "type": "system",
+      "title": "Live Showroom Console Ready",
+      "message": "Real-time WebSocket notifications and full-page CMS controls are active.",
+      "targetRole": "all",
+      "readBy": [],
+      "createdAt": "2026-11-21T07:47:13.747Z"
+    }
+  ],
+  "catalogTrimmedToTen": true
+}
