@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import express from 'express';
-import { createServer as createViteServer } from 'vite';
+// vite is loaded lazily (dev only) so production installs can omit it.
 import {
   CUSTOMER_PERMISSIONS,
   DEFAULT_SITE_CONTENT,
@@ -976,6 +976,7 @@ export async function createApp(): Promise<express.Application> {
   // --- Vite / Static Serving (local / non-Vercel only) ---
   if (!IS_VERCEL) {
     if (process.env.NODE_ENV !== 'production') {
+      const { createServer: createViteServer } = await import('vite');
       const vite = await createViteServer({
         server: { middlewareMode: true },
         appType: 'spa',
